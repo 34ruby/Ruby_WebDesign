@@ -20,9 +20,35 @@
                 <li><a href="#">Contemporary</a></li>
                 <li><a href="#">Affordable</a></li>
             </ul>
-            <button>여기로</button>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
         </nav>
+        
+        <div class="lampContainer">
+            <img src="images/lamp.png" class="lamp">
+            <img src="images/light.png" class="light" id="light">
+        </div>
+
+        <div class="textContainer">
+            <h1>Modern<br>JavaScript</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem praesentium ea voluptatibus aperiam, quaerat ducimus eos incidunt molestias optio tempore </p>
+            <a href="#">Check All List</a>
+            <div class="control">
+                <p>04</p>
+                <div class="line"><span></span></div>
+                <p>05</p>
+            </div>
+        </div>
+
     </div>
-    
+
+    <script>
+        let btn = document.getElementById("btn")
+        let light = document.getElementById("light")
+
+        function toggleBtn() {
+            btn.classList.toggle("active")
+            light.classList.toggle("on")
+        }
+    </script>
 </body>
 </html>
