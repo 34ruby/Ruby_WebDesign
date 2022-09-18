@@ -269,28 +269,28 @@ export default {
             ],
             files: [
                 {
-                    avatar: require('../../public/profile1.jpg'),
+                    avatar: require('../../src/assets/profile1.jpg'),
                     action: 'Open',
                     headline: 'Summer BBQ',
                     subtitle: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. `,
                     title: `<strong>Eburh</strong>`
                 },
                 {
-                    avatar: require('../../public/profile2.jpg'),
+                    avatar: require('../../src/assets/profile2.jpg'),
                     action: 'Closed',
                     headline: 'Summer BBQ',
                     subtitle: `Contrary to popular belief, Lorem Ipsum is not simply random text.`,
                     title: `<strong>Wene</strong>`
                 },
                 {
-                    avatar: require('../../public/profile3.jpg'),
+                    avatar: require('../../src/assets/profile3.jpg'),
                     action: 'Closed',
                     headline: 'Summer BBQ',
                     subtitle: `The Extremes of Good and Evil`,
                     title: `<strong>Iceth</strong>`
                 }, 
                 {
-                    avatar: require('../../public/profile4.jpg'),
+                    avatar: require('../../src/assets/profile4.jpg'),
                     action: 'Closed',
                     headline: 'Summer BBQ',
                     subtitle: `injected humour and the like`,
